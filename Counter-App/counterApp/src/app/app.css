@@ -1,0 +1,54 @@
+
+/* Apply to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Main heading */
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Counter display */
+h2 {
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #007bff;
+}
+
+/* Button container */
+div > div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Different colors for reset and decrement */
+button:nth-child(2) {
+  background-color: #ffc107; /* Reset - Yellow */
+  color: black;
+}
+button:nth-child(3) {
+  background-color: #dc3545; /* Decrement - Red */
+}
